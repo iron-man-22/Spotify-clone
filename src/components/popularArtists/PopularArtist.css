@@ -1,0 +1,12 @@
+.popularArtistSectionMainContainer{
+    /* border: 2px solid yellow; */
+    height: 50%;
+    width: 98%;
+    margin: auto;
+}
+
+.popularArtistSectionMainContainer span{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-left: 1.3rem;
+}

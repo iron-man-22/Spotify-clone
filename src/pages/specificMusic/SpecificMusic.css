@@ -1,0 +1,46 @@
+.musicCard{
+    width: 50rem;
+    /* border: 2px solid yellow; */
+    /* background-color: rgb(0, 124, 182); */
+}
+
+.musicCardContainer{
+    display: flex;
+    /* border: 2px solid yellow; */
+    margin: auto;
+    margin-top: 2rem;
+   
+    /* background-color: rgb(0, 124, 182); */
+}
+
+.musicCardContainer img{
+    width: 10rem;
+    height: 10rem;
+    padding: 2rem;
+}
+
+.musicTextContainer{
+    
+    margin-top: 4rem;
+}
+
+.musicTextContainer h1{
+    font-size: 4.3rem;
+}
+
+.musicTextContainer h3{
+    font-size: 0.8rem;
+}
+
+.musicCard audio{
+    height: 2rem;
+    margin-left: 1.5rem;
+}
+
+.audioCard{
+    width: 100%;
+    height: 3rem;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+}

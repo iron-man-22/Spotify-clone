@@ -1,0 +1,185 @@
+nav{
+    /* border: 2px solid green; */
+    height: 8%;
+    
+}
+.navbarContainer ul{
+    display: flex;
+}
+
+.navbarContainer{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navbarLeftSection{
+    /* border: 2px solid red; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+
+.leftSectionContainer{  
+    /* border: 2px solid yellow; */
+    margin-top: 0.2rem;
+    padding: 0.1rem;
+}
+
+.navLeftSectionRightContainer{
+    /* border: 2px solid red; */
+    margin-left: 2rem;
+    height: 2.3rem;
+    display: flex;
+    gap: 1.2rem;
+}
+
+.homeBtn{
+    
+    background-color: rgb(47, 47, 47);
+    color: rgb(101, 100, 100);
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: none;
+    
+}
+
+.singleBar{
+    
+    background-color: rgb(40, 40, 40);
+    padding-left: 1.5rem;
+    width: 20rem;
+    border-radius:2rem ;
+    display: flex;
+    gap: 1rem;
+}
+
+.searchButton,input{
+    margin: 0.3rem;
+}
+
+input{
+    background-color: rgb(40, 40, 40);
+    border: none;
+}
+
+.searchButton{
+    background-color: rgb(40, 40, 40);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    
+}
+
+.searchButton svg{
+    fill: white;
+    width: 20px;
+    height: 20px;
+}
+
+.leftSectionContainer button{
+    background-color: rgb(47, 47, 47);
+    color: rgb(101, 100, 100);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    
+}
+
+.homeBtn svg{
+    fill:white;
+}
+
+.navbarRightSection{
+    /* border: 2px solid yellow; */
+    width: 50%;
+    display: flex;
+}
+
+
+.navRightSectionLeft{
+    /* border: 2px solid red; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    
+}
+
+.navRightSectionLeft .navItems{
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: rgb(179, 179, 179);
+}
+
+.navRightSectionLeft .navItems:hover{
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: white;
+}
+
+.navRightSectionRight{
+    /* border: 2px solid yellow; */
+    /* border-left: 2px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 50%;
+    gap: 1rem;
+}
+.navRightSectionRight::before {
+    content: "";
+    position: absolute;
+    left: 0; 
+    top: 25%; 
+    height: 50%; 
+    width: 2px; 
+    background-color: white; 
+  }
+
+  
+
+  .navRightSectionRight span{
+    fill: rgb(172, 172, 172);
+    width: 15px;
+    height: 15px;
+    padding-bottom: 0.4rem;
+    
+}
+
+.navRightSectionRight span:hover{
+    fill: rgb(238, 238, 238);
+    width: 17px;
+    height: 17px;
+    padding-top: 0.3rem;
+    
+}
+
+.signUpBtn{
+    font-size: 0.8rem;
+    font-weight: 700;
+    color:rgb(172, 172, 172) ;
+}
+
+.signUpBtn:hover{
+    
+    color:rgb(245, 244, 244) ;
+}
+
+.loginBtn{
+    width: 4.5rem;
+    padding: 0.6rem;
+    border: none;
+    border-radius:20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}

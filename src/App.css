@@ -1,0 +1,17 @@
+.mainContainer{
+    /* border: 2px solid blue; */
+    height: 100vh;
+    background-color: rgb(11, 11, 11);
+    position: fixed;
+}
+.mainContainerSection{
+    /* border: 2px solid red; */
+    display: flex;
+    height: 82%;
+    justify-content: space-evenly;
+    
+}
+
+*::-webkit-scrollbar-thumb{
+    display: none;
+  }

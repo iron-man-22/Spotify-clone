@@ -1,0 +1,35 @@
+.footerSectionContainer{
+    /* border: 2px solid red; */
+    height: 6%;
+    width: 97%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right,rgb(144, 49, 142),rgb(83, 138, 220));
+    padding: 0.5rem;
+}
+
+.footerLeftSection h4{
+    font-size: 0.7rem;
+}
+
+.footerLeftSection p{
+    font-size: 0.7rem;
+    
+}
+
+.footerRightSection{
+    margin-right: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.footerRightSection button{
+    border: none;
+    padding: 0.5rem;
+    border-radius: 1.3rem;
+    height: 2.2rem;
+    width: 6.5rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+}

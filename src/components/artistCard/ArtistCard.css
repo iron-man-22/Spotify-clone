@@ -1,0 +1,58 @@
+.popularArtistCard{
+    display: flex;
+    /* border: 2px solid red;  */
+    margin-top: 1rem;
+    
+    
+}
+
+.artistCardContainer{
+    /* border: 2px solid green; */
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.6rem;
+    border-radius: 8px;
+    position: relative;
+}
+
+.artistCardContainer:hover{
+    background-color: rgb(28, 28, 28);
+}
+
+.artistCardContainer img{
+    
+    /* border: 2px solid blue; */
+    height: 100px;
+    width: 100px;
+    border-radius: 5rem;
+}
+
+.artistNameContainer{
+    font-size: 0.7rem;
+    width: 100%;
+}
+
+.artistCardContainer span{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(47, 255, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: none;
+}
+
+.artistCardContainer:hover #iconSvg{
+    display: flex;
+}
+
+.artistCardContainer span svg{
+    height: 70%;
+    width: 70%;
+}

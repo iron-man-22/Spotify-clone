@@ -1,0 +1,8 @@
+.mainSectionContainer{
+    /* border: 2px solid white; */
+    border-radius: 6px;
+    width: 70%;
+    height: 98%;
+    overflow-y: scroll;
+    background:linear-gradient(to bottom,rgb(42, 42, 42),black);
+}
