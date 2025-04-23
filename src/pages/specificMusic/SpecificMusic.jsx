@@ -3,7 +3,7 @@ import "./SpecificMusic.css"
 import Navbar from '../../components/Navbar/Navbar'
 import { PopularArtists } from '../../config/config'
 import TrendingSection from '../../components/trendingSection/TrendingSection'
-const SpecificMusic = ({currentEle}) => {
+const SpecificMusic = ({currentEle,setCurrentPage,setCurrentEle}) => {
   return (
     <>
       <div className='musicCard'>
@@ -18,7 +18,7 @@ const SpecificMusic = ({currentEle}) => {
         <audio src={currentEle.audFile} controls></audio>
        </div>
       </div>
-      <TrendingSection/>
+      <TrendingSection setCurrentPage={setCurrentPage} setCurrentEle={setCurrentEle} />
     </>
   )
 }

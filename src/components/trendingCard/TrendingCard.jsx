@@ -9,7 +9,9 @@ const TrendingCard = ({setCurrentPage,setCurrentEle}) => {
       TrendingCardData.map((ele,id)=>{
         return (
           <>
-              <div key={id} onClick={()=>{ setCurrentPage("musicSpecificPage")
+              <div key={id} onClick={()=>{ 
+                console.log("Clicked on:", ele.heading);
+                setCurrentPage("musicSpecificPage")
                 setCurrentEle(ele)
                 }} className="cardContainer">
                 <img src={ele.imgSrc} alt="" />
