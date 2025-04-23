@@ -1,5 +1,6 @@
 .footerSectionContainer{
     /* border: 2px solid red; */
+    
     height: 6%;
     width: 97%;
     margin: auto;
@@ -7,6 +8,9 @@
     justify-content: space-between;
     background: linear-gradient(to right,rgb(144, 49, 142),rgb(83, 138, 220));
     padding: 0.5rem;
+    position: fixed;
+    bottom: 0;
+    left: 7px;
 }
 
 .footerLeftSection h4{

@@ -17,8 +17,9 @@ const SpecificMusic = ({currentEle,setCurrentPage,setCurrentEle}) => {
        <div className="audioCard">
         <audio src={currentEle.audFile} controls></audio>
        </div>
+       <TrendingSection setCurrentPage={setCurrentPage} setCurrentEle={setCurrentEle} />
       </div>
-      <TrendingSection setCurrentPage={setCurrentPage} setCurrentEle={setCurrentEle} />
+      
     </>
   )
 }

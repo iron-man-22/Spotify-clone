@@ -20,7 +20,7 @@ const MainSection = () => {
         :currentPage==="musicSpecificPage"? 
         <SpecificMusic setCurrentEle={setCurrentEle} setCurrentPage={setCurrentPage} currentEle={currentEle} key={currentEle?.heading} />
         : currentPage==="artistSpecificPage"?
-        <SpecifiArtist currentArtst={currentArtst} />
+        <SpecifiArtist currentArtst={currentArtst} setCurrentEle={setCurrentEle} setCurrentPage={setCurrentPage} key={currentEle?.heading} />
         :null
       }
       

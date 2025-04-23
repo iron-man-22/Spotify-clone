@@ -3,7 +3,7 @@ import "./SpecifiArtist.css"
 import { PopularArtists } from '../../config/config'
 import TrendingSection from '../../components/trendingSection/TrendingSection'
 
-const SpecifiArtist = ({currentArtst}) => {
+const SpecifiArtist = ({currentArtst,setCurrentPage,setCurrentEle}) => {
     
   return (
     <>
@@ -14,7 +14,7 @@ const SpecifiArtist = ({currentArtst}) => {
           <h3>{currentArtst.subName}</h3>
        </div>
       </div>
-      <TrendingSection/>
+      <TrendingSection setCurrentPage={setCurrentPage} setCurrentEle={setCurrentEle}/>
     </>
   )
 }
